@@ -1,0 +1,20 @@
+# Local config / secrets
+scripts/azure/vars.sh
+*.env
+*.pfx
+*.publishsettings
+*.parameters.local.json
+
+# Disks and exports (huge)
+*.vhd
+*.vhdx
+*.vdi
+*.iso
+*.bak
+*.bacpac
+export/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
